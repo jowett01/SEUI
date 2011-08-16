@@ -24,22 +24,22 @@ public final class R {
     }
     public static final class id {
         public static final int allPrdLinesLayout=0x7f07001b;
-        public static final int autoCompleteTextView1=0x7f07001e;
         public static final int conditionHint=0x7f070017;
+        public static final int danfanImage=0x7f07000c;
+        public static final int digitalImage=0x7f07000b;
+        public static final int editText1=0x7f07001e;
         public static final int homeButton=0x7f07000f;
         public static final int homeShowLayout=0x7f070000;
         public static final int imageButton1=0x7f070011;
-        public static final int imageView2=0x7f070008;
-        public static final int imageView3=0x7f070009;
-        public static final int imageView4=0x7f07000b;
-        public static final int imageView5=0x7f07000c;
-        public static final int imageView6=0x7f07000d;
-        public static final int itemProduct=0x7f07001f;
+        public static final int itemProduct=0x7f070020;
         public static final int labRoot=0x7f070014;
         public static final int linearLayout1=0x7f070004;
         public static final int linearLayout2=0x7f070002;
         public static final int maxize=0x7f07001c;
+        public static final int mp4Image=0x7f07000d;
+        public static final int multiAutoCompleteTextView1=0x7f07001f;
         public static final int occurButton=0x7f070005;
+        public static final int option1=0x7f07001d;
         public static final int paraLayout=0x7f070018;
         public static final int pcImage=0x7f070007;
         public static final int prdCateButton=0x7f070003;
@@ -54,7 +54,8 @@ public final class R {
         public static final int tableRow2=0x7f070006;
         public static final int tableRow3=0x7f07000a;
         public static final int topLayout=0x7f07000e;
-        public static final int txt_query_appdata=0x7f07001d;
+        public static final int tvImage=0x7f070008;
+        public static final int videoImage=0x7f070009;
     }
     public static final class layout {
         public static final int homeshow=0x7f030000;

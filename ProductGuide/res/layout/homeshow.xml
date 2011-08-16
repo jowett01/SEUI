@@ -23,16 +23,16 @@
         <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" >
 
             <ImageView android:src="@drawable/pc" android:layout_height="fill_parent" android:id="@+id/pcImage" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
-            <ImageView android:src="@drawable/tv" android:layout_height="fill_parent" android:id="@+id/imageView2" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
-            <ImageView android:src="@drawable/video" android:layout_height="fill_parent" android:id="@+id/imageView3" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
+            <ImageView android:src="@drawable/tv" android:layout_height="fill_parent" android:id="@+id/tvImage" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
+            <ImageView android:src="@drawable/video" android:layout_height="fill_parent" android:id="@+id/videoImage" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
  
         </TableRow>
         
         <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" >
         
-            <ImageView android:src="@drawable/digital" android:layout_height="fill_parent" android:id="@+id/imageView4" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
-            <ImageView android:src="@drawable/danfan" android:layout_height="fill_parent" android:id="@+id/imageView5" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
-            <ImageView android:src="@drawable/mp4" android:layout_height="fill_parent" android:id="@+id/imageView6" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>                   
+            <ImageView android:src="@drawable/digital" android:layout_height="fill_parent" android:id="@+id/digitalImage" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
+            <ImageView android:src="@drawable/danfan" android:layout_height="fill_parent" android:id="@+id/danfanImage" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>
+            <ImageView android:src="@drawable/mp4" android:layout_height="fill_parent" android:id="@+id/mp4Image" android:layout_width="fill_parent"  android:layout_weight="1"></ImageView>                   
   
         </TableRow> 
 

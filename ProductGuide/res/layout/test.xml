@@ -4,23 +4,35 @@
   android:orientation="vertical"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent">
-    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/topLayout" android:background="#6f6f6f">
-        <ImageButton android:src="@drawable/home26" android:layout_height="wrap_content" 
-               android:layout_width="wrap_content" android:id="@+id/homeButton"/>
-            <EditText android:id="@+id/txt_query_appdata"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:maxEms="10"
-                android:minEms="10" />
-            <ImageButton android:src="@drawable/iconsearch" android:id="@+id/imageButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
-    </LinearLayout>
-    <AutoCompleteTextView android:text="AutoCompleteTextView" android:id="@+id/autoCompleteTextView1" 
-             android:layout_width="fill_parent" android:layout_height="wrap_content"
-             android:src="@drawable/iconsearch">
-        <requestFocus></requestFocus>
-    </AutoCompleteTextView>
+          <TextView android:text="prdGuide" android:id="@+id/prdGuide" 
+               android:layout_width="fill_parent" android:layout_height="wrap_content" 
+               android:background="#FFCC00" >
+          </TextView>  
+ 
+          <LinearLayout android:layout_height="fill_parent"  android:layout_width="fill_parent" 
+          	android:paddingTop="20dp" android:orientation="vertical" android:layout_weight="1">
+             <EditText android:layout_height="wrap_content" android:id="@+id/conditionHint" 
+              		android:layout_width="wrap_content" android:background="#ffffff" 
+              		android:layout_gravity="center_horizontal" >
+            	<requestFocus></requestFocus>
+     		 </EditText>
+         </LinearLayout>
 
-          
+          <LinearLayout android:layout_height="fill_parent"  android:layout_width="fill_parent" android:orientation="vertical">
+             <TableRow android:id="@+id/option1" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+             <EditText android:id="@+id/editText1" android:layout_height="wrap_content" android:layout_width="fill_parent" 
+             android:inputType="textMultiLine"></EditText> 
+ 
+             <MultiAutoCompleteTextView android:id="@+id/multiAutoCompleteTextView1" android:text="MultiAutoCompleteTextView" android:layout_height="wrap_content" android:layout_width="fill_parent"></MultiAutoCompleteTextView>
+            </TableRow>
+             
+              <TableRow android:id="@+id/option1" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+                           <EditText android:id="@+id/editText1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="textMultiLine"></EditText> 
+ 
+             <MultiAutoCompleteTextView android:id="@+id/multiAutoCompleteTextView1" android:text="MultiAutoCompleteTextView" android:layout_height="wrap_content" android:layout_width="fill_parent"></MultiAutoCompleteTextView>
+ 
+              </TableRow>
+          </LinearLayout>
        
 
 </LinearLayout>

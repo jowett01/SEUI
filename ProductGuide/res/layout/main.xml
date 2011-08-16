@@ -8,7 +8,7 @@
         <ImageView android:src="@drawable/home26" android:layout_height="fill_parent" 
                android:layout_width="wrap_content" android:id="@+id/homeButton"/>
           <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" >
-        	<AutoCompleteTextView android:id="@+id/searchBox" android:paddingLeft="20dp"
+        	<AutoCompleteTextView android:id="@+id/searchBox" 
                           android:layout_width="wrap_content" android:layout_height="wrap_content"
                           android:hint="@string/homeSearchHint" android:layout_weight="1">
                 <requestFocus></requestFocus>
