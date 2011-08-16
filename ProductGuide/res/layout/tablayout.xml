@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                              android:orientation="vertical"
+                              android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:id="@+id/labRoot">
+              
+    <LinearLayout android:id="@+id/prdGuideLayout" android:layout_height="fill_parent" 
+              android:layout_width="fill_parent" android:orientation="vertical">
+
+          <TextView android:text="@string/prdGuide" android:id="@+id/prdGuide" 
+               android:layout_width="fill_parent" android:layout_height="wrap_content" 
+               android:textAppearance="?android:attr/textAppearanceLarge" android:background="#FFCC00" >
+          </TextView>  
+ 
+          <LinearLayout android:layout_height="fill_parent"  android:layout_width="fill_parent" 
+          	android:paddingTop="20dp" android:orientation="vertical">
+             <EditText android:layout_height="wrap_content" android:id="@+id/conditionHint" 
+              		android:layout_width="wrap_content" android:background="#ffffff" 
+              		android:textAppearance="?android:attr/textAppearanceMedium" 
+              		android:layout_gravity="center_horizontal" >
+            	<requestFocus></requestFocus>
+     		 </EditText> 
+          </LinearLayout>
+   </LinearLayout>
+              
+    <RelativeLayout android:id="@+id/paraLayout" android:layout_height="fill_parent"
+              android:layout_width="fill_parent" android:orientation="vertical" >
+        <TextView android:text="@string/paraSearchHint" android:id="@+id/searchByParaView" 
+               android:layout_width="fill_parent" android:layout_height="wrap_content" 
+               android:textColor="#0f0f0f"
+               android:textAppearance="?android:attr/textAppearanceLarge" android:background="#ffffff" >
+        </TextView>
+
+        <Button android:text="@string/startSearch" android:id="@+id/searchButton" android:layout_width="wrap_content" 
+                 android:layout_height="wrap_content" android:layout_alignParentBottom="true" 
+                 android:layout_centerInParent="true"  >
+        </Button>            
+       
+    </RelativeLayout>             
+               
+    <LinearLayout android:id="@+id/allPrdLinesLayout" android:layout_height="fill_parent"
+              android:layout_width="fill_parent"/>    
+              
+    <LinearLayout android:id="@+id/maxize" android:layout_height="fill_parent"
+              android:layout_width="fill_parent"  />    
+ 
+</LinearLayout>

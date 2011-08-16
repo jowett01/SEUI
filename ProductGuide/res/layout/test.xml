@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/topLayout" android:background="#6f6f6f">
+        <ImageButton android:src="@drawable/home26" android:layout_height="wrap_content" 
+               android:layout_width="wrap_content" android:id="@+id/homeButton"/>
+            <EditText android:id="@+id/txt_query_appdata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="10"
+                android:minEms="10" />
+            <ImageButton android:src="@drawable/iconsearch" android:id="@+id/imageButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+    </LinearLayout>
+    <AutoCompleteTextView android:text="AutoCompleteTextView" android:id="@+id/autoCompleteTextView1" 
+             android:layout_width="fill_parent" android:layout_height="wrap_content"
+             android:src="@drawable/iconsearch">
+        <requestFocus></requestFocus>
+    </AutoCompleteTextView>
+
+          
+       
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ProductGuideActivity!</string>
+    <string name="app_name">ProductGuide</string>
+    
+    <string name="ocurrency">使用场合</string>
+    <string name="category">产品分类</string>
+    
+    
+    <string name="products">产品</string>
+    <string name="buy">购买</string>
+    <string name="news">新闻</string>
+    <string name="shops">门店</string>
+    <string name="more">更多</string>
+    <string name="prdCategory">产品分类</string>
+    <string name="prdGuide">产品导购</string>
+    <string name="ParaSearch">参数搜索</string>
+    <string name="allPrdlines">全线产品</string>
+    
+       <string name="paraDistance">请选择观看距离或电视机尺寸:</string>
+</resources>

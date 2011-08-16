@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/topLayout" android:background="#6f6f6f">
+        <ImageView android:src="@drawable/home26" android:layout_height="fill_parent" 
+               android:layout_width="wrap_content" android:id="@+id/homeButton"/>
+          <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" >
+        	<AutoCompleteTextView android:id="@+id/searchBox" android:paddingLeft="20dp"
+                          android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:hint="@string/homeSearchHint" android:layout_weight="1">
+                <requestFocus></requestFocus>
+        	</AutoCompleteTextView>
+        	<ImageView android:src="@drawable/iconsearch" android:id="@+id/imageButton1" 
+        	  android:layout_width="wrap_content" android:layout_height="fill_parent">
+        	</ImageView>
+        </LinearLayout>
+
+    
+    </LinearLayout>
+     
+
+    <TabHost android:layout_weight="0"  android:id="@+id/tabhostMain" android:layout_width="fill_parent" android:layout_height="fill_parent"  >
+       <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical">
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </FrameLayout>
+        
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+    </TabHost>
+
+
+
+</LinearLayout>
